@@ -165,6 +165,30 @@ font-weight: 600;
 } 
 .banner-btn i{ 
     color: #0A0826;
+}  
+
+.footer{ 
+    align-items: center;
+    height: 50vh; 
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(20, 20, 20);
+    color: #FFF; 
+    text-align: center; 
+
+} 
+.footer-title{ 
+    font-size: 20px; 
+      }
+.footer-description{ 
+    font-size: 12px; 
+}
+.footer i{ 
+    padding: 5px 5px;
+} 
+
+.foot{ 
+    padding-top: 100px ;
 }
 /* responsive style  */ 
 @media  screen and (max-width:576px) {    
@@ -208,5 +232,9 @@ font-weight: 600;
   .feature-description{ 
     width: 80%;
   }
-
+   
+  .footer{ 
+    height: 40vh; 
+    margin-top: 20px;
+  }
 }
