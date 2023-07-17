@@ -1,0 +1,153 @@
+:root{ 
+    --font-family: Poppins;
+}
+nav{ 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(234, 238, 240);
+} 
+nav>ul{
+    display: flex; 
+    list-style: none;
+
+} 
+nav ul li{ 
+    text-decoration: none; 
+    padding: 20px 15px; 
+    color: #333333;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500; 
+cursor: pointer;
+}
+.nav-title{ 
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+} 
+.banner{ 
+    height: 60vh;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: rgb(244, 245, 247);
+    
+} 
+.banner-content{ 
+  width: 40%; 
+    } 
+    .banner-title{ 
+        color: #484747;
+font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 70px;
+    } 
+    .banner-description{ 
+        color: #3A3A3A;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+    }
+.banner-img{ 
+
+    background-image: url(./images/Circle\ design.svg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 350px;
+    height: 350px;
+     }
+ .banner-btn{ 
+    background-color: orangered;
+    color: white; 
+    font-size: 10px;
+    padding: 8px 17px; 
+    border-radius: 14px;
+    border: none;
+ }
+.banner-img img{ 
+    width: 100% ; 
+    
+} 
+.sponsor{ 
+    text-align: center; 
+   width: 90%; 
+   height: 10vh;
+   margin: 0 auto;
+   padding: 70px 0px;
+    background-color: #fefcfc;
+} 
+.sponsor img{ 
+    padding: 12px 20px;
+}
+.popular-collection{ 
+    text-align: center; 
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+}
+.cheaked{ 
+    color: orange;
+} 
+.cards-container{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 25px; 
+    max-width: 90%;
+    margin: 0 auto;
+    
+    justify-content: center;
+} 
+.card{ 
+    padding: 5px 15px;
+    border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15); 
+} 
+.card img{ 
+    width: 100%;
+} 
+.card p{ 
+    font-size: 14px;
+    color: rgb(130, 129, 129);
+} 
+.see-more h6{ 
+    color: orangered; 
+   text-align: right; 
+   font-size: 12px;
+} 
+.see-more{ 
+    width: 90%; 
+    margin: 0 auto; 
+    cursor: pointer;
+   
+    
+}
+/* responsive style  */ 
+@media  screen and (max-width:576px) { 
+
+    nav{ 
+        flex-direction: column; 
+    
+    }
+    .banner{ 
+        flex-direction: column-reverse;
+        height: 100vh;
+
+    } 
+    .banner-content{ 
+        width: 95%;
+    }
+    .cards-container{ 
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .popular-collection h2{ 
+       padding-top: 55px ;
+}   .see-more{ 
+    width: 80%;
+}
